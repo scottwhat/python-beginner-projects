@@ -13,4 +13,4 @@ for x in range(inputTime, 0, -1):
     print(f"{hours:02}:{mins:02}:{seconds:02}")
     time.sleep(1)
 
-print("Congrats! ( . Y . )")
+print("Congrats! you made it heres your prize.... *High Five*")
