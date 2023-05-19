@@ -7,6 +7,7 @@ class Rectangle:
 class Square(Rectangle):
 
     def __init__(self, length, width):
+        #pass the inputs to the parent super constructor through length, width
         super().__init__(length,width)
 
     def area(self):
@@ -15,7 +16,7 @@ class Square(Rectangle):
 class Cube(Rectangle):
 
     def __init__(self, length, width, height):
-        super().__init__(length,width)
+        super.__init__(length, width)
         self.height = height
 
     def volume(self):
