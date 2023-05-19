@@ -21,9 +21,6 @@ plain_text = input("Enter a message to encrypt")
 cipher_text = ""
 
 decypher_text = ""
-
-
-
 #ENCYPHER
 for letter in plain_text:
     index = chars.index(letter)
