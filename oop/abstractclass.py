@@ -1,7 +1,10 @@
 #abstract classes provide a blueprint/outline with no implementation
 #children must override the methods with implementations
 #annotate with @abstractmethod
-class Vehicle(ABC):
+from abc import abstractmethod
+
+
+class Vehicle():
 
     @abstractmethod
     def go(self):
